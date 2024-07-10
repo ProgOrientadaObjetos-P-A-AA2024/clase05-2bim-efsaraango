@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+// implementes se utiliza para trabajar con interfaz  
 package paquete08i;
 
 /**
@@ -32,7 +33,8 @@ public class EvaluacionEnsayo implements EvaluacionTipoDos {
         return totalProblemas;
     }
     
-    
+    // estamos utilizando esos dos metodos por q esta clase esta utilizando
+    // "implements" por lo tanto esta en la obligacion de utilizar estos metodos. 
     @Override
     public void establecerPromedioEnsayo() {
 

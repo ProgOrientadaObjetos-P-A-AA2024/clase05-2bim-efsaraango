@@ -11,6 +11,9 @@ package paquete06l;
 public class TarjetaCredito {
     private String nombre;
     private String numero;
+    private Banco banco;
+
+   
 
    
     public void establecerNombre(String n) {
